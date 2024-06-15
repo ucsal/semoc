@@ -1,0 +1,22 @@
+{
+    "name": "SEMOC 2024",
+    "short_name": "SEMOC",
+    "description": "SEMOC 2024 - Semana de Mobilização Científica da Universidade Católica do Salvador.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#7952b3",
+    "icons": [
+      {
+        "src": "/images/favicon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/favicon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  
