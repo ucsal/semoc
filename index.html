@@ -85,6 +85,7 @@
                 <p>Semana de Mobilização Científica da Universidade Católica do Salvador</p>
                 <div id="countdown" class="clock" data-aos="fade-up"></div>
                 <br>
+                <h3>Evento Encerrado!</h3>
                 <p>Data do evento: De 21 a 25 de Outubro</p>
             </div>
         </section>
@@ -366,28 +367,5 @@ A tecnociência, bem orientada, pode produzir coisas realmente valiosas para mel
         AOS.init();
     </script>
 
-    <!-- Custom Countdown Script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            function updateCountdown() {
-                const eventDate = new Date("October 21, 2024 00:00:00").getTime();
-                const now = new Date().getTime();
-                const timeLeft = eventDate - now;
-
-                const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-                document.getElementById("countdown").innerHTML = `
-                    <div class="time"><span>${days}</span><span> Dias</span></div>
-                    <div class="time"><span>${hours}</span><span> Horas</span></div>
-                    <div class="time"><span>${minutes}</span><span> Minutos</span></div>
-                `;
-            }
-
-            setInterval(updateCountdown, 1000);
-        });
-        </script>
   </body>
 </html>
